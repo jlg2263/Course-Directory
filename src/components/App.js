@@ -12,7 +12,7 @@ import NotFound from './NotFound';
 
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/course-directory">
     <div className="container">
       <Header />
 
